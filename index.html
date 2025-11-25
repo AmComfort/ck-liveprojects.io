@@ -1,50 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevOps Engineer Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comfort | DevOps & Cloud Engineer</title>
+
     <style>
         body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.7;
             margin: 0;
             padding: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #0b132b;
-            color: #f0f0f0;
+            background: #f7f9fc;
+            color: #222;
         }
+
         header {
-            background-color: #1c2541;
-            padding: 20px;
+            background: #0d1b2a;
+            color: #fff;
+            padding: 50px 20px;
             text-align: center;
         }
-        h1 {
+
+        header h1 {
             margin: 0;
-            font-size: 2.4em;
-            color: #5bc0be;
+            font-size: 42px;
         }
-        section {
-            padding: 40px;
+
+        header p {
+            font-size: 20px;
+            opacity: 0.85;
+        }
+
+        main {
             max-width: 900px;
-            margin: auto;
-            background-color: #3a506b;
+            margin: 40px auto;
+            padding: 20px;
+            background: #ffffff;
             border-radius: 10px;
+            box-shadow: 0px 0px 12px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            border-left: 4px solid #0d1b2a;
+            padding-left: 10px;
             margin-top: 40px;
         }
-        h2 {
-            color: #5bc0be;
-            border-bottom: 2px solid #5bc0be;
-            padding-bottom: 5px;
+
+        h3 {
+            margin-top: 25px;
+            color: #0d1b2a;
         }
+
         ul {
-            list-style-type: square;
             margin-left: 20px;
         }
+
         .footer {
             text-align: center;
-            padding: 15px;
-            margin-top: 40px;
-            background-color: #1c2541;
-            color: #aaa;
+            margin: 50px 0 20px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        a {
+            color: #0d1b2a;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        blockquote {
+            background: #eef2f6;
+            padding: 15px 20px;
+            border-left: 5px solid #0d1b2a;
+            border-radius: 6px;
+            font-style: italic;
+            margin: 20px 0;
         }
     </style>
 </head>
@@ -52,43 +87,153 @@
 <body>
 
 <header>
-    <h1>Welcome to My DevOps Portfolio</h1>
+    <h1>👋 Hi, I'm Comfort</h1>
+    <p>DevOps Engineer • AWS Cloud Specialist • CI/CD • Infrastructure as Code</p>
+    <p>10+ Years in IT | 5+ Years in DevOps & AWS Cloud</p>
 </header>
 
-<section>
-    <h2>About Me</h2>
+<main>
+
     <p>
-        I am a DevOps Engineer with hands-on experience in cloud infrastructure, automation,
-        CI/CD pipelines, containerization, and configuration management. I build scalable,
-        secure, and automated systems using modern DevOps tooling.
+        I specialize in building resilient, automated, and scalable cloud-native systems. 
+        My work spans end-to-end infrastructure design, CI/CD engineering, security automation, 
+        Kubernetes operations, and reliability engineering for high-uptime production environments.
+    </p>
+    <p>
+        With a strong academic foundation, I focus on applying engineering principles, automation, 
+        and observability to create efficient, secure, and highly available platforms.
     </p>
 
-    <h2>Skills & Tools</h2>
+    <h2>🔧 Core Skills & Technologies</h2>
+
+    <h3>Cloud & Infrastructure</h3>
     <ul>
-        <li>AWS (EC2, VPC, S3, IAM, Lambda, CloudWatch)</li>
-        <li>CI/CD: GitHub Actions, Jenkins</li>
-        <li>Containers: Docker, Kubernetes</li>
-        <li>Terraform & Infrastructure as Code</li>
-        <li>Ansible, Bash, Linux</li>
-        <li>Monitoring: Prometheus, Grafana</li>
+        <li>AWS: EC2, VPC, IAM, EKS, ECS, S3, Lambda, CloudWatch, RDS, DynamoDB, SNS/SQS, Route53, CloudFront, ALB/NLB</li>
+        <li>Docker, Kubernetes (EKS/GKE/kubeadm)</li>
+        <li>Linux: Ubuntu, Amazon Linux, RHEL</li>
     </ul>
 
-    <h2>Projects</h2>
+    <h3>DevOps & Automation</h3>
     <ul>
-        <li>CI/CD pipeline with GitHub Actions deploying to Kubernetes</li>
-        <li>Terraform-managed AWS infrastructure (VPC, Subnets, EC2, Security Groups)</li>
-        <li>Automated Docker build & deployment for microservices</li>
-        <li>Ansible playbooks for server provisioning and configuration</li>
+        <li>CI/CD: GitHub Actions, GitLab CI, Jenkins, AWS CodePipeline</li>
+        <li>IaC: Terraform, CloudFormation</li>
+        <li>Ansible, Packer, GitOps workflows</li>
     </ul>
 
-    <h2>Contact</h2>
-    <p>Email: comfortkofigah1@gmail.com</p>
-    <p>GitHub: github.com/AmComfort</p>
-   
-</section>
+    <h3>SRE & Platform Engineering</h3>
+    <ul>
+        <li>Prometheus, Grafana, Loki, ELK, CloudWatch</li>
+        <li>Auto-scaling, blue/green & canary deployments</li>
+        <li>SLA/SLO/SLI design, performance engineering</li>
+    </ul>
+
+    <h3>Security & Governance</h3>
+    <ul>
+        <li>IAM, least privilege, role boundaries</li>
+        <li>Secrets Manager, HashiCorp Vault</li>
+        <li>Cloud security baselines, compliance automation</li>
+    </ul>
+
+    <h3>Additional Tools</h3>
+    <ul>
+        <li>Python, Bash</li>
+        <li>Nginx, HAProxy</li>
+        <li>PostgreSQL, MySQL, Redis</li>
+        <li>Monitoring, architecture diagrams, Agile/Scrum</li>
+    </ul>
+
+    <h2>💡 What I Do</h2>
+    <ul>
+        <li>Design and deploy secure AWS cloud infrastructure</li>
+        <li>Automate CI/CD pipelines for faster, safer software delivery</li>
+        <li>Implement Infrastructure as Code (Terraform, Ansible)</li>
+        <li>Manage containerized workloads using Docker & Kubernetes</li>
+        <li>Optimize cloud cost and improve system reliability</li>
+    </ul>
+
+    <h2>📂 Industry Experience</h2>
+
+    <h3>Aviation</h3>
+
+    <h4>1. Cloud-Native Flight Operations Platform (AWS + Terraform + EKS)</h4>
+    <ul>
+        <li>Modernized mission-critical systems such as flight tracking and crew scheduling.</li>
+        <li>Developed complete Terraform-based AWS infrastructure.</li>
+        <li>Built GitHub Actions pipelines with automated testing, scanning, and canaries.</li>
+        <li>Implemented multi-AZ EKS clusters with autoscaling.</li>
+        <li>Enabled observability with CloudWatch dashboards and SLO-based alerts.</li>
+    </ul>
+
+    <p><strong>Impact:</strong> Improved uptime to 99.99% and enabled daily safe deployments.</p>
+
+    <h4>2. Real-Time Passenger & Baggage Tracking (Serverless Architecture)</h4>
+    <ul>
+        <li>Designed Lambda/DynamoDB-based event-driven platform for real-time notifications.</li>
+        <li>Implemented SQS/SNS pipelines and CI/CD automation.</li>
+        <li>Added audit trails, encryption, and regulatory compliance.</li>
+    </ul>
+
+    <p><strong>Impact:</strong> Reduced baggage-update delays by 40%.</p>
+
+    <h3>Banking (Financial Services)</h3>
+
+    <h4>3. Secure Multi-Environment Cloud Platform (Terraform + ECS)</h4>
+    <ul>
+        <li>Implemented Terraform + Terragrunt for dev/test/prod separation.</li>
+        <li>Built Jenkins pipelines with tests, scanning, and approval gating.</li>
+        <li>Migrated APIs to ECS Fargate with blue/green & canary deployment strategies.</li>
+        <li>Integrated CloudTrail, KMS, Config for compliance (PCI-DSS, FFIEC).</li>
+    </ul>
+
+    <p><strong>Impact:</strong> Reduced manual ops by 60% and strengthened cloud security.</p>
+
+    <h4>4. Enterprise Observability & Reliability Program</h4>
+    <ul>
+        <li>Deployed Prometheus, Grafana, and ELK.</li>
+        <li>Implemented SLIs/SLOs, error budgets, and automated runbooks.</li>
+        <li>Integrated CloudWatch metrics & logs with SIEM systems.</li>
+    </ul>
+
+    <p><strong>Impact:</strong> Reduced MTTR and improved reliability for banking systems.</p>
+
+    <h3>SRE Observability & Reliability Initiative</h3>
+    <ul>
+        <li>Prometheus federation & Grafana dashboards</li>
+        <li>CloudWatch anomaly detection, custom metrics</li>
+        <li>Error budget policy automation</li>
+        <li>Runbook automation with Lambda & SSM</li>
+    </ul>
+
+    <p><strong>Outcome:</strong> Improved incident response by 40% and reduced alert noise by 60%.</p>
+
+    <h2>🏆 Certifications</h2>
+    <ul>
+        <li>AWS Certified Solutions Architect – Associate</li>
+        <li>Terraform Associate (HashiCorp)</li>
+        <li>Docker Certified Associate (optional)</li>
+    </ul>
+
+    <h2>🎓 Education</h2>
+    <ul>
+        <li>Master of Science, Information Systems – USA</li>
+        <li>Bachelor of Science, Information Technology – Ghana</li>
+    </ul>
+
+    <h2>📫 Connect With Me</h2>
+    <p>
+        GitHub: <a href="https://github.com/Amcomfort" target="_blank">github.com/Amcomfort</a><br>
+        Email: <a href="mailto:comfortkofigah1@gmail.com">comfortkofigah1@gmail.com</a>
+    </p>
+
+    <h2>⚡ Fun Fact</h2>
+    <blockquote>
+        “Automation isn’t about replacing humans — it’s about freeing them to do creative work.”
+    </blockquote>
+
+</main>
 
 <div class="footer">
-    © 2025 DevOps Engineer Portfolio
+    © 2025 Comfort | DevOps & Cloud Engineer
 </div>
 
 </body>
